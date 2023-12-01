@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+
+
+[project]
+name = "wildcat"
+version = "0.1.0"
+authors = [{name = "Martin Czygan", email = "martin.czygan@gmail.com"}]
+description = "wildcat bibliographic data utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["luigi>=3", "xdg-base-dirs>=6"]
+
+[project.scripts]
+wildcat = "wildcat.main:run"
+
