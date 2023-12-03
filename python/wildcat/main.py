@@ -1,2 +1,6 @@
+import luigi
+from sources import *
+
+
 def run():
-    print("hello, wildcat!")
+    luigi.run()

@@ -1,3 +1,7 @@
+.PHONY: fmt
+fmt:
+	black .
+
 .PHONY: build
 build:
 	pip install -e .
